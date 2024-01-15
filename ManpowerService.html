@@ -69,15 +69,17 @@
                                         <span>Need Help?</span>055 616 6343
                                     </div>
 
-                                    <ul id="mainmenu">
+                                    <div id="google_translate_element"></div>
+
+                                    <!--<ul id="mainmenu" class=" h-phone">
                                         <li>
-                                            <a class="menu-item" href="index-2.html">English (US)</a>
+                                            <a class="menu-item" href="index.html">English (US)</a>
                                             <ul>
-                                                <li><a class="menu-item" href="homepage-2.html">English (US)</a></li>
-                                                <li><a class="menu-item" href="homepage-3.html">الْعَرَبيّة</a></li>
+                                                <li><a class="menu-item" href="index.html">English (US)</a></li>
+                                                <li><a class="menu-item" href="rtl/index.html">الْعَرَبيّة</a></li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul>-->
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>
@@ -328,6 +330,19 @@
     <script src="js/swiper.js"></script>
     <script src="js/custom-marquee.js"></script>
     <script src="js/custom-swiper-1.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en', includedLanguages: 'en,ar,bn,zh-CN' },
+                'google_translate_element'
+            );
+        }
+    </script>
+
+    <script type="text/javascript"
+            src="https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+    </script>
     <style>
         #serviceUL {
             -webkit-column-count: 3;
